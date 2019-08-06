@@ -66,4 +66,30 @@ int main()
     /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
     return 0;
 }
+ ##ruby
+ --calc prog
+ --puts "Enter the 1st number: "
+a = gets.chomp .to_f
+puts "Enter the operator: "
+opr = gets.chomp
+puts "Enter the 2nd number: "
+b = gets.chomp .to_f
+
+
+if opr == "+"
+   puts (a + b)
+
+elsif opr == "-"
+  puts (a - b)
+
+elsif opr == "*"
+   puts (a * b)
+
+elsif opr == "/"
+    puts (a / b)
+
+else
+    puts "Invalid operator"
+
+  end
 
