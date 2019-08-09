@@ -92,4 +92,15 @@ else
     puts "Invalid operator"
 
   end
+##array length in ruby
+-- soda_type=["sprite" , "mazza" , "lime" , "coco" , "apple" , "kalimark"]
+  puts soda_type.length
+
+  puts soda_type.sort
+##substring
+ -- a=["my name is vkypandi","Arjun reddy","preethi"]
+    puts a[0][1,9]
+    puts a[1][0..4]
+    puts a[2][0..3]
+
 
