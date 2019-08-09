@@ -92,5 +92,11 @@ else
     puts "Invalid operator"
 
   end
+##Whitespace remove
+--  a = "my name is dhoni"
+
+    a = a.gsub(" ","")
+
+    puts a
 
   
